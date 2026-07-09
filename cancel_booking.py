@@ -43,4 +43,5 @@ def cancel_booking():
     print("Booking Cancelled Successfully")
 
 
-cancel_booking()
+if __name__ == "__main__":
+    cancel_booking()

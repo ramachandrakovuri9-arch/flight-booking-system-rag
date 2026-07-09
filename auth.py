@@ -46,25 +46,3 @@ def login():
     else:
         print("\nInvalid Email or Password")
 
-
-while True:
-
-    print("\n===== Flight Booking System =====")
-    print("1. Register")
-    print("2. Login")
-    print("3. Exit")
-
-    choice = input("Enter Choice : ")
-
-    if choice == "1":
-        register()
-
-    elif choice == "2":
-        login()
-
-    elif choice == "3":
-        print("Thank You!")
-        break
-
-    else:
-        print("Invalid Choice")

@@ -50,4 +50,5 @@ def view_bookings():
         print("-"*40)
 
 
-view_bookings()
+if __name__ == "__main__":
+    view_bookings()

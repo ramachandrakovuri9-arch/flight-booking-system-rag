@@ -42,4 +42,5 @@ def book_ticket():
     print("\n✅ Ticket Booked Successfully!")
 
 
-book_ticket()
+if __name__ == "__main__":
+    book_ticket()

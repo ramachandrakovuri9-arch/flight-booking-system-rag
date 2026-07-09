@@ -28,4 +28,5 @@ def show_flights():
         print("-" * 45)
 
 
-show_flights()
+if __name__ =="__main__":
+    show_flights()
