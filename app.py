@@ -1,4 +1,4 @@
-from auth import register, login
+from chatbot import run_chatbot
 from flights import show_flights
 from bookings import book_ticket
 from view_bookings import view_bookings
@@ -12,7 +12,8 @@ while True:
     print("4. Book Ticket")
     print("5. View My Bookings")
     print("6. Cancel Booking")
-    print("7. Exit")
+    print("7. AI Flight&policy assistant")
+    print("8. Exit")
 
     choice = input("Enter your choice: ")
 
@@ -35,8 +36,8 @@ while True:
         cancel_booking()
 
     elif choice == "7":
-        print("Thank you for using Flight Booking System!")
+        run_chatbot()
+    elif choice == "8":
         break
-
     else:
         print("Invalid Choice!")

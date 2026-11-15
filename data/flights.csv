@@ -1,0 +1,4 @@
+flight_no,origin,destination,departure_time,price
+AI-101,Hyderabad,Bengaluru,10:00 AM,₹4,500
+6E-202,Hyderabad,Bengaluru,02:30 PM,₹3,800
+SG-303,Hyderabad,Mumbai,06:00 PM,₹5,200
